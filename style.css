@@ -1,0 +1,34 @@
+html ,body {
+    height:100%;
+
+}
+
+input[type="text"]{
+    background-color: black;
+    color:chartreuse;
+    border-radius: 200px;
+    border : 0px;
+    margin-right: 10px;
+}
+
+input[type="submit"]{
+    border-radius: 200px;
+    color:black;
+    background-color: chartreuse;
+    border : 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex:6
+}
+
+.tamanho2 {
+    flex: 2;
+    background-color: red;
+
+}
+.tamanho6 {
+    flex: 6;
+}
